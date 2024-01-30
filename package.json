@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A simple portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabrozdev/portfolio.git"
+  },
+  "author": "Fabrizzio Maya Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabrozdev/portfolio/issues"
+  },
+  "homepage": "https://github.com/fabrozdev/portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
