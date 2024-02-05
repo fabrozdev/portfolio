@@ -1,22 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./**/*.{html,js}"],
+export default {
+  darkMode: 'class',
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {
-      animation: {
-        bannermove: "bannermove 5s linear infinite",
-      },
-      keyframes: {
-        bannermove: {
-          "0%": {
-            transform: "translate3d(0%, 0, 0);",
-          },
-          "100%": {
-            transform: "translate3d(-50%, 0, 0)",
-          },
-        },
-      },
-    },
+    extend: {}
   },
-  plugins: [],
-};
+  plugins: []
+}

@@ -1,38 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>fabroz.dev Portfolio</title>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-ZGY3HYMP5H"
-    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZGY3HYMP5H"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || []
       function gtag() {
-        dataLayer.push(arguments);
+        dataLayer.push(arguments)
       }
-      gtag("js", new Date());
+      gtag('js', new Date())
 
-      gtag("config", "G-ZGY3HYMP5H");
+      gtag('config', 'G-ZGY3HYMP5H')
     </script>
-    <link href="src/output.css" rel="stylesheet" />
   </head>
+
   <body>
-    <div class="flex items-center justify-center flex-col h-[100vh] gap-4">
-      <img class="w-1/5" src="src/assets/profile.png" />
-      <div class="text-center">
-        <h1>Hey there this is fabroz.dev Portfolio.</h1>
-        <marquee behavior="scoll" direction="left" class="w-1/2">
-          <div class="flex">
-            <p class="uppercase">
-              Under construction - Under construction - Under construction
-            </p>
-          </div>
-        </marquee>
-      </div>
-    </div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
