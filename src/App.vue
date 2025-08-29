@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import { useDark, useToggle } from '@vueuse/core'
 import darkMode from './assets/dark_mode.svg'
 import lightMode from './assets/light_mode.svg'
+
 const isDark = useDark({ disableTransition: false })
 const toggleMode = useToggle(isDark)
 </script>
@@ -18,11 +19,6 @@ const toggleMode = useToggle(isDark)
           <img :src="isDark ? lightMode : darkMode" />
         </button>
       </div>
-
-      <!--   <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav> -->
     </div>
   </header>
   <RouterView />
