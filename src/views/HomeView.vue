@@ -3,14 +3,14 @@ import profileImg from '../assets/profile.png'
 const profiles = {
   linkedin: "https://www.linkedin.com/in/fabrizzio-lopez-2b0aab156/",
   medium: "https://medium.com/@fabroz.dev",
-  cv: '/portfolio/fabrizzio-lopez-resume.pdf'
+  cv: 'https://docs.google.com/document/d/1scqhMrftrDglq10jKScjSQpH3TS73OZ-_wPa4gJ52H4/'
 }
 </script>
 
 <template>
   <main class="bg-white dark:bg-gray-800 text-black dark:text-white transition-all duration-500">
     <div class="flex items-center justify-center flex-col h-[100vh] gap-4">
-      <img class="w-1/5" :src="profileImg" />
+      <img class="w-1/5" :src="profileImg" alt="profile" />
       <div class="text-center">
         <h1>Hey there, this is fabroz.dev Portfolio.</h1>
         <marquee behavior="scoll" direction="left" class="w-1/2">
